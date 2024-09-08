@@ -5,6 +5,7 @@ import { useState } from "react";
 export default function App() {
   return (
     <div className="app">
+      <h2>Tip Calculator</h2>
       <TipCalculator></TipCalculator>
     </div>
   );
