@@ -67,6 +67,16 @@ button{
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  border: 1px solid black;
+  border: none;
 background-color: orange;
+}
+button:hover{
+  border: none;
+  background-color: black;
+  color: orange;
+  transition:.2s ;
+  -webkit-transition:.2s ;
+  -moz-transition:.2s ;
+  -ms-transition:.2s ;
+  -o-transition:.2s ;
 }
